@@ -1,0 +1,30 @@
+// Simple calculator
+
+def plus(a, b):
+  return int(a) + int(b)
+
+def minus(a, b):
+  return int(a) - int(b)
+
+def product(a, b):
+  return int(a) * int(b)
+
+def divide(a, b):
+  return int(a) / int(b)
+
+def negation(a):
+  return -int(a)
+
+def pow(a, b):
+  return int(a) ** int(b)
+
+def mod(a, b):
+  return int(a) % int(b)
+
+print(plus(2, "3"))
+print(minus(2, "3"))
+print(product(2, "3"))
+print(divide(2, "3"))
+print(negation("3"))
+print(pow(2, "3"))
+print(mod(2, "3"))

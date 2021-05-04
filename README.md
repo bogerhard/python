@@ -1,0 +1,3 @@
+# python
+
+Practice python syntax
